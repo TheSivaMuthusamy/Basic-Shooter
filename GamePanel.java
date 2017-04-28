@@ -236,9 +236,6 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
                 else if(rand < 0.130) {
                     powerups.add(new PowerUp(4, e.getX(), e.getY()));
                 }
-                else {
-                    powerups.add(new PowerUp(4, e.getX(), e.getY()));
-                }
                 
                 
                 player.addScore(e.getType() + e.getRank());        
